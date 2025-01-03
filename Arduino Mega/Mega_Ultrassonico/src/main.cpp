@@ -19,7 +19,7 @@ void setup() {
 void loop() {
   // Garante que o TRIG esteja em LOW
   digitalWrite(trigPin, LOW);
-  delayMicroseconds(2);
+  delayMicroseconds(50);
 
   // Envia um pulso de 10 microsegundos para o TRIG
   digitalWrite(trigPin, HIGH);
